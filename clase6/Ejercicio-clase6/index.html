@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+
+        <section>
+            <h1>Clase 6</h1>
+                <fieldset>
+                    <legend>
+                        Alta de usuario
+                    </legend>
+                    <form action="AltaUsuario.html" method="post">
+                        <input type="file" name="dni-frente" required>
+                        <br>
+                        <input type="hidden" value="valoroculto" name="campoHidden">
+                        <br>
+                        <input type="url" name="url"placeholder="URL">
+                        <br>
+                        <input type="text" name="nombre" required placeholder="Ingrese algo">
+                        <br>
+                        Cargar Número
+                        <br>
+                        <input type="text" name="nombre" required placeholder="Ingrese algo" pattern="[0-9]" title="Ingresar número entre 0 y 9">
+                        <br>
+                        <textarea name="info-extra"  cols="50" rows="10"></textarea>
+                        <br>
+                        <p>
+                            <label for="selectMultiple"></label>
+                        <select multiple name="selecMultiple" id="selectMultiple">
+                            <optgroup label="Animales">
+                                <option>León</option>
+                                <option>Tigre</option>
+                                <option>Jirafa</option>
+                            </optgroup>
+                            <optgroup label="Colores">
+                                <option>Rojo</option>
+                                <option>Verde</option>
+                                <option>Amarillo</option>
+                            </optgroup>
+                        </select>
+                        </p>
+                        
+
+                        
+                     
+                            
+                        <label for="browser">Datalist </label><input list="browser">
+                        <datalist id="browser" name="databrowser">
+                           
+                            <option>Chrome</option>
+                            <option>Brave</option>
+                            <option>Mozilla</option>
+
+                        </datalist>
+                        <br>
+                        <label for="buscar">Tipo search</label>
+                        <input type="search" name="buscar" id="buscar">
+                        <br>
+                        <label for="buscarText">Tipo text</label>
+                        <input type="text" name="buscarText" id="buscarText">
+                        
+                      
+                        <p><input type="submit" value="Enviar"></p>
+
+        
+
+
+                        </select>
+                    </form>
+
+
+                </fieldset>
+
+
+
+        </section>
+
+
+
+    </main>
+    
+</body>
+</html>
