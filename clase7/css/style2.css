@@ -1,0 +1,28 @@
+/*El asterisco es un simbolo universal, que le aplica a todo, vale mas que el inline*/
+/*
+* { 
+
+background-color: azure;    
+}*/
+/*Esto es un comentario en CSS*. Style es una forma de darle diseño, otra en en la label y otro es hacer unarchivo aparte*/
+body { 
+    background-color: darkgrey;
+}
+
+/*aplicar estilo por ID*/
+#idsection {
+
+    background-color: rgb(102, 164, 245);
+
+}
+#nav{
+    background: lightyellow;
+}
+/*estilo oppr clases. <nombreDeClase>*/
+.links {
+    color: rgb(233, 233, 23);
+}
+/*selector por etiqueta*/
+a {
+    text-decoration: none;
+}
