@@ -1,0 +1,45 @@
+/*forma que más se utiliza para importar fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Roboto';
+}
+h1 {
+    /*grosor de texto*/
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Merriweather';
+}
+
+h3 {
+    font-family: 'Roboto';
+}
+
+nav ul li {
+    list-style: circle;
+}
+
+/*propiedades de texto*/
+.ppp {
+    letter-spacing: 3px; 
+    text-align: justify; /*left / right / justify*/
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-decoration-color: brown;
+    text-shadow: 1px 2px red;
+}
+
+section table {
+    border-right: 5px solid black;
+    border-left: 5px solid rgb(163, 33, 33);
+    border-top: 5px solid rgb(46, 175, 42);
+    border-bottom: 5px solid rgb(72, 79, 180);
+}
+
+section table td {
+    border: 5px solid rgb(49, 136, 177);
+}
