@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .divBox {
+            margin: 15px;
+            border: 2px solid red;
+            padding: 25px 10px ;
+            width: 48%;
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+        }
+
+        h3{
+            background-color: black;
+            color: blue ;
+            /*text-align: center;*/
+            margin: 0 auto; /*cero arriba y abajo y auto izquierda derecha*/
+            width: 150px;
+            text-align: center;
+        }
+    
+        .medidas{
+            font-size: 10px ;
+
+        }
+        .medidas h2 {
+            font-size: 3em ;
+            margin-left: auto;
+
+        }
+
+        .medidas p{
+            font-size: 1.5em ;
+
+        }
+
+        .foto{
+            width: 15cm;
+            height: 10cm;
+        }
+
+        .cuadrado {
+            width: 200 px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            top: 100px;
+            left: 50px;
+        }
+        
+        /*centrar texto*/
+        /*medidas. absolutas 1px = 0.26 mm
+        puntos 0.35 mm
+        im pulgadas 2.54 cm
+        cm
+        mm
+        pc pica 4.23 mm
+        relativas em div 10 px > 2em 20px
+                rem: root element <html>
+                flexibles vw viewport width
+                            vh viewport hight*/
+
+    </style>
+</head>
+<body>
+    <main>
+
+        <section>
+            <div class="cuadrado"></div>
+            <ul>
+                <li>
+                    <a>Opción</a>
+                </li>
+            </ul>
+        </section>
+
+
+        <section>
+            <div class="divBox">
+                <p><h1>Texto</h1></p>
+
+            </div>
+            <div class="divBox">
+                <h2>Subtítulo</h2>
+
+            </div>
+        </section>
+        <!--Especificidad-->
+        <!--!important > in line > id > class-->
+
+        <section id="sec2">
+
+            <h3>Sección 2</h3>
+
+        </section>
+        <br>
+        <section class="medidas">
+            
+                <h2>Sección 3</h2>
+                <p>Texto en sección</p>
+            
+        </section>
+
+        <section class="foto">
+            <img src="lossimpson.png" class="foto">
+
+        </section>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*selector por atributos*/
+        [href] {
+            background-color: blueviolet;
+            text-decoration: none;
+        }
+        /*elemento con contenido exacto*/
+        [href="nosotros.html"]{
+            background-color: brown;
+        }
+        /*elemento que comienza con*/
+        [href^="i"]{
+            background-color: rgb(37, 215, 40);
+        }
+
+            /*elemento que contenga*/
+            [href*="s"]{
+            background-color: rgb(224, 236, 224);
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+
+                </li>
+                <li>
+                    <a href="contactos.html">Contacto</a>
+
+                </li>
+                <li>
+                    <a href="imagenes.html">Imagenes</a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
