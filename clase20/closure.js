@@ -50,6 +50,8 @@ const jsonObject = await fnInner();
 alert(JSON.stringify(jsonObject))
 });
 
+// 1-Defino la funcion, 2-capto en una variable, global o let o constante, por ID o Clase lo que quiero buscar, 3- y le asigno un evento. lo que queremos escuchar.
+// un click, un blur, etc. segundo parametro es la funcion que se va a ejecutar cuando suceda el evento, 
 
 function checkUsername(){
     var elMsg = document.getElementById('feedback');
