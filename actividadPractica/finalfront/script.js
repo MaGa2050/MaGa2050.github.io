@@ -13,7 +13,7 @@ resumen.addEventListener('click', function(){
     if(valorCantidad === '' || valorCategoria === ''){
         alert("Debe completar la Categoria y Cantidad");
     } else {
-        const recibo = (200 *  valorCategoria / parseInt(valorCantidad));
+        const recibo = ((200 *  valorCategoria) * parseInt(valorCantidad));
 
         const div = document.getElementById('msgResumen');
 
